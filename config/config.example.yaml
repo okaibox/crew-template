@@ -1,0 +1,19 @@
+# OKAI Crew 설정 템플릿
+#
+# 이 파일을 config.yaml로 복사하여 사용하세요.
+# cp config/config.example.yaml config/config.yaml
+
+# 기본 설정
+base_url: https://example.com
+
+# 타이밍 (초)
+wait:
+  page_load: 4
+  after_action: 3
+
+# 재시도
+max_retry: 2
+
+# AI 자가 복구 (Claude CLI)
+self_heal: true
+heal_timeout: 120
